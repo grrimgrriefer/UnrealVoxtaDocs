@@ -1,0 +1,30 @@
+name: Doxygen GitHub Pages Deploy Action
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3      
+      - name: Run shell commands
+        run: |
+          git config --global url.https://github.com/.insteadOf git://github.com/
+          git clone https://grrimgrriefer@dev.azure.com/grrimgrriefer/UnrealVoxta/_git/UnrealVoxta
+
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: DenverCoder1/doxygen-github-pages-action@v2.0.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: docs/html
+          config_file: Doxyfile
+          doxygen_version: 1.9.6
