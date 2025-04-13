@@ -2,18 +2,26 @@ DOXYFILE_ENCODING = UTF-8
 PROJECT_NAME = UnrealVoxta
 PROJECT_NUMBER = 0.1.1
 OUTPUT_DIRECTORY = ./docs/unrealvoxta
+
+USE_MDFILE_AS_MAINPAGE = doxygen.md
+INPUT_ENCODING = UTF-8
 INPUT = ./UnrealVoxta/Source
 INPUT += ./UnrealVoxta/README.md
 
+EXCLUDE = ./UnrealVoxta/Source/VoxtaAudioUtility/Public/RuntimeAudioImporter
+EXCLUDE += ./UnrealVoxta/Source/VoxtaAudioUtility/Private/RuntimeAudioImporter
+EXCLUDE += ./UnrealVoxta/Source/SignalR
+HTML_INDEX_NUM_ENTRIES = 0
+
+RECURSIVE = YES
+EXTRACT_ALL = YES
+FULL_PATH_NAMES = NO
+FILE_PATTERNS = *.cpp  *.h
+EXCLUDE_PATTERNS = */.git/*
+
 JAVADOC_AUTOBRIEF = YES
 MARKDOWN_SUPPORT = YES
-EXTRACT_ALL = YES
-INPUT_ENCODING = UTF-8
-FILE_PATTERNS = *.cpp  *.h
-RECURSIVE = YES
-EXCLUDE_PATTERNS = */.git/*
-FULL_PATH_NAMES = NO
-USE_MDFILE_AS_MAINPAGE = doxygen.md
-GENERATE_XML = True
+GENERATE_XML = NO
 USE_MATHJAX=YES
 GENERATE_LATEX = NO
+HTML_OUTPUT = ../../docs/
