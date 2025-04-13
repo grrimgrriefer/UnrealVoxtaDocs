@@ -10,21 +10,34 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3      
-      - name: Run shell commands
-        run: |
-          git config --global url.https://github.com/.insteadOf git://github.com/
-          git clone https://grrimgrriefer@dev.azure.com/grrimgrriefer/UnrealVoxta/_git/UnrealVoxta
-
-  deploy:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: DenverCoder1/doxygen-github-pages-action@v2.0.0
+      - uses: actions/checkout@v3.1.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages
-          folder: docs/html
-          config_file: Doxyfile
-          doxygen_version: 1.9.6
+          persist-credentials: true
+          clean: true
+          lfs: false
+      - name: Checkout UnrealVoxta
+        run: |
+          git lfs install --local
+          git config --global user.email test@gmail.com
+          git config --global user.name "Test User"
+          git config --global filter.lfs.smudge "git-lfs smudge --skip -- %f"
+          git config --global filter.lfs.process "git-lfs filter-process --skip"
+          git clone https://grrimgrriefer@dev.azure.com/grrimgrriefer/UnrealVoxta/_git/UnrealVoxta
+      - name: Doxygen
+        run: |
+          sudo apt-get update 
+          sudo apt-get install -y wget graphviz
+          transformed_version=$(echo "1.13.2" | tr '.' '_')
+          wget https://github.com/doxygen/doxygen/releases/download/Release_${transformed_version}/doxygen-1.13.2.linux.bin.tar.gz
+          tar -xzf doxygen-1.13.2.linux.bin.tar.gz
+          sudo mv doxygen-1.13.2/bin/doxygen /usr/local/bin/doxygen
+          doxygen Doxyfile
+        shell: bash
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs
+          git commit -a -m "Update documentation"
+          git fetch --all
+          git push origin --force main:gh-pages
