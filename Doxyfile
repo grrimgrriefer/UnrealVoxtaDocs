@@ -10,13 +10,12 @@ INPUT += ./UnrealVoxta/README.md
 
 EXCLUDE = ./UnrealVoxta/Source/VoxtaAudioUtility/Public/RuntimeAudioImporter
 EXCLUDE += ./UnrealVoxta/Source/VoxtaAudioUtility/Private/RuntimeAudioImporter
-EXCLUDE += ./UnrealVoxta/Source/SignalR
 HTML_INDEX_NUM_ENTRIES = 0
 
 RECURSIVE = YES
 EXTRACT_ALL = YES
 FULL_PATH_NAMES = NO
-FILE_PATTERNS = *.cpp  *.h  *.Build.cs
+FILE_PATTERNS = *.cpp  *.h  *.Build.cs  *.md
 EXCLUDE_PATTERNS = */.git/*
 
 JAVADOC_AUTOBRIEF = YES
