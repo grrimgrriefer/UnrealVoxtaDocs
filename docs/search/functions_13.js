@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['_7eaudiowebsocket_0',['~AudioWebSocket',['../classAudioWebSocket.html#aaf33a437b859ff85a94a10ea1623ebf5',1,'AudioWebSocket']]],
+  ['_7efaichardata_1',['~FAiCharData',['../structFAiCharData.html#ab6b76d44159939d865b54d3a353efa44',1,'FAiCharData']]],
+  ['_7efbasechardata_2',['~FBaseCharData',['../structFBaseCharData.html#ada9dfe3d6dc1315efb11508487123554',1,'FBaseCharData']]],
+  ['_7efcallbackmanager_3',['~FCallbackManager',['../classFCallbackManager.html#ab53f16ff8265e83c513bdd9f5216f6ba',1,'FCallbackManager']]],
+  ['_7efconnection_4',['~FConnection',['../classFConnection.html#ac371dce22f274ff98247bacc285d2623',1,'FConnection']]],
+  ['_7efhubconnection_5',['~FHubConnection',['../classFHubConnection.html#a4f25b4610502dcad553013881287def9',1,'FHubConnection']]],
+  ['_7efhubmessage_6',['~FHubMessage',['../structFHubMessage.html#ae33295b0655fe267afab53f6e2741c1e',1,'FHubMessage']]],
+  ['_7efjsonhubprotocol_7',['~FJsonHubProtocol',['../classFJsonHubProtocol.html#ac0aeda6e5a8caa7bae6c77ee55bd3a52',1,'FJsonHubProtocol']]],
+  ['_7efsignalrvalue_8',['~FSignalRValue',['../classFSignalRValue.html#a4e78fca969f37c52eef1f726f5ed58ca',1,'FSignalRValue']]],
+  ['_7efuserchardata_9',['~FUserCharData',['../structFUserCharData.html#a4e272a0685da553cd91c36c8a3bb63b4',1,'FUserCharData']]],
+  ['_7efvoicerunnerthread_10',['~FVoiceRunnerThread',['../classFVoiceRunnerThread.html#a5554f9586bbb7a920b8a6f8e1b4f32dd',1,'FVoiceRunnerThread']]],
+  ['_7eihubconnection_11',['~IHubConnection',['../classIHubConnection.html#a3cd406adfccdd6fa1806b00cda6ea063',1,'IHubConnection']]],
+  ['_7eihubprotocol_12',['~IHubProtocol',['../classIHubProtocol.html#ad05dc685c321280a30d694d209bb7a29',1,'IHubProtocol']]],
+  ['_7emessagechunkaudiocontainer_13',['~MessageChunkAudioContainer',['../classMessageChunkAudioContainer.html#a33911cb1a597af2da4f0d4f144f010b0',1,'MessageChunkAudioContainer']]],
+  ['_7eserverresponsebase_14',['~ServerResponseBase',['../structServerResponseBase.html#aa5f8ec7c78d209b30ce0d62dd4363c36',1,'ServerResponseBase']]],
+  ['_7evoxtalogger_15',['~VoxtaLogger',['../classVoxtaLogger.html#ad512bb0f8ef98a11decb60873653647a',1,'VoxtaLogger']]]
+];

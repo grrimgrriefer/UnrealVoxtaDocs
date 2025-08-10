@@ -1,0 +1,9 @@
+var searchData=
+[
+  ['sender_5fid_0',['SENDER_ID',['../structServerResponseChatMessageChunk.html#a39a4a1fc92f18f3724cc7f8d2d49a2aa',1,'ServerResponseChatMessageChunk::SENDER_ID'],['../structServerResponseChatMessageEnd.html#a7edc37e6513b968c867d8d4c6d0f929b',1,'ServerResponseChatMessageEnd::SENDER_ID'],['../structServerResponseChatMessageStart.html#a4e0773ed285c522c3c8042840781403c',1,'ServerResponseChatMessageStart::SENDER_ID'],['../structServerResponseChatUpdate.html#a7e1531b4c5552891149e30751381816d',1,'ServerResponseChatUpdate::SENDER_ID']]],
+  ['server_5fversion_1',['SERVER_VERSION',['../structServerResponseWelcome.html#a5ecedac1d2e43e97ba589579b7def103',1,'ServerResponseWelcome']]],
+  ['services_2',['SERVICES',['../structServerResponseChatStarted.html#a6f168e842883252a44a46650100a6709',1,'ServerResponseChatStarted::SERVICES'],['../structServerResponseConfiguration.html#a4bfa711f722ae7f711798adc54b5c893',1,'ServerResponseConfiguration::SERVICES']]],
+  ['session_5fid_3',['SESSION_ID',['../structServerResponseChatClosed.html#a66d1ecd990b922adf0beb35ab6e92fa2',1,'ServerResponseChatClosed::SESSION_ID'],['../structServerResponseChatMessageBase.html#a40ed8e68a6ecff1639d5084b547f93f2',1,'ServerResponseChatMessageBase::SESSION_ID'],['../structServerResponseChatStarted.html#afb42feaf663dc87390a0a78b6c08ddb2',1,'ServerResponseChatStarted::SESSION_ID'],['../structServerResponseChatUpdate.html#a36bf32a9d280555005a001281e6be227',1,'ServerResponseChatUpdate::SESSION_ID'],['../structServerResponseContextUpdated.html#a7a67927d470e0b3bb6ed7010c0851065',1,'ServerResponseContextUpdated::SESSION_ID']]],
+  ['start_5findex_4',['START_INDEX',['../structServerResponseChatMessageChunk.html#a16bcc87cc3ea998eb698fd8effac810d',1,'ServerResponseChatMessageChunk']]],
+  ['streamids_5',['StreamIds',['../structFInvocationMessage.html#a8596ae86919a5b95cd4502900a50ad38',1,'FInvocationMessage']]]
+];

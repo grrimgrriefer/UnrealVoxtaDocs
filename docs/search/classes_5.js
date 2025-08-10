@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['serverresponsebase_0',['ServerResponseBase',['../structServerResponseBase.html',1,'']]],
+  ['serverresponsecharacterlist_1',['ServerResponseCharacterList',['../structServerResponseCharacterList.html',1,'']]],
+  ['serverresponsechatclosed_2',['ServerResponseChatClosed',['../structServerResponseChatClosed.html',1,'']]],
+  ['serverresponsechatmessagebase_3',['ServerResponseChatMessageBase',['../structServerResponseChatMessageBase.html',1,'']]],
+  ['serverresponsechatmessagecancelled_4',['ServerResponseChatMessageCancelled',['../structServerResponseChatMessageCancelled.html',1,'']]],
+  ['serverresponsechatmessagechunk_5',['ServerResponseChatMessageChunk',['../structServerResponseChatMessageChunk.html',1,'']]],
+  ['serverresponsechatmessageend_6',['ServerResponseChatMessageEnd',['../structServerResponseChatMessageEnd.html',1,'']]],
+  ['serverresponsechatmessagestart_7',['ServerResponseChatMessageStart',['../structServerResponseChatMessageStart.html',1,'']]],
+  ['serverresponsechatsessionerror_8',['ServerResponseChatSessionError',['../structServerResponseChatSessionError.html',1,'']]],
+  ['serverresponsechatstarted_9',['ServerResponseChatStarted',['../structServerResponseChatStarted.html',1,'']]],
+  ['serverresponsechatupdate_10',['ServerResponseChatUpdate',['../structServerResponseChatUpdate.html',1,'']]],
+  ['serverresponseconfiguration_11',['ServerResponseConfiguration',['../structServerResponseConfiguration.html',1,'']]],
+  ['serverresponsecontextupdated_12',['ServerResponseContextUpdated',['../structServerResponseContextUpdated.html',1,'']]],
+  ['serverresponseerror_13',['ServerResponseError',['../structServerResponseError.html',1,'']]],
+  ['serverresponsespeechtranscription_14',['ServerResponseSpeechTranscription',['../structServerResponseSpeechTranscription.html',1,'']]],
+  ['serverresponsewelcome_15',['ServerResponseWelcome',['../structServerResponseWelcome.html',1,'']]],
+  ['signalr_16',['SignalR',['../classSignalR.html',1,'']]]
+];
